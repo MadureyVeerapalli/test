@@ -1,7 +1,7 @@
 global class AccContRelAndPositionSyncBatch implements Database.Batchable<sObject> {
 
 //    Database.executeBatch(new AccContRelAndPositionSyncBatch(), 200);
-//test
+//test sync
     private static final String SEPARATOR = ';';
 
     global AccContRelAndPositionSyncBatch() {}
